@@ -9,7 +9,7 @@ homepage = "https://github.com/awrped/ferrite"
 readme = "README.md"
 license = "MIT"
 keywords = ["json", "validator"]
-categories = ["parser", "tool"]
+categories = ["parsing", "development-tools"]
 
 [dependencies]
 serde_json = "1.0"
