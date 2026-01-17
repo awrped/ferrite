@@ -2,6 +2,14 @@
 name = "ferrite"
 version = "0.1.0"
 edition = "2021"
+authors = ["awrped"]
+description = "json validator that actually tells you how to fix your mistakes"
+repository = "https://github.com/awrped/ferrite"
+homepage = "https://github.com/awrped/ferrite"
+readme = "README.md"
+license = "MIT"
+keywords = ["json", "validator"]
+categories = ["parser", "tool"]
 
 [dependencies]
 serde_json = "1.0"
