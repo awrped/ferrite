@@ -9,7 +9,7 @@ use validator::validate_json;
 
 #[derive(Parser)]
 #[command(name = "ferrite")]
-#[command(about = "a prettier json validator that gives you actual fixes", long_about = None)]
+#[command(about = "json validator that actually tells you how to fix your mistakes", long_about = None)]
 struct Cli {
     #[arg(value_name = "FILE")]
     file: PathBuf,
